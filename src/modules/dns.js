@@ -1,6 +1,6 @@
 import dns from 'dns'
 
-const dns = (url) => {
+const check = (url) => {
   return new Promise(function(resolve, reject) {
     dns.resolve4( url, (err, addresses) => {
       if (err) {
@@ -12,4 +12,4 @@ const dns = (url) => {
   })
 }
 
-export default dns
+export default check
