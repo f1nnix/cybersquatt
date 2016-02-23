@@ -17,7 +17,7 @@ const check = (name)=> {
     twitter(name),
     github(name),
   ])
-    .then(generateReportLine(name))
+    .then(humanize(name))
 }
 
 const humanize = (name)=> {
