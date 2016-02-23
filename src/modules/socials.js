@@ -1,3 +1,4 @@
+import Promise from 'bluebird'
 import request from 'request'
 
 const facebook = (name) => {

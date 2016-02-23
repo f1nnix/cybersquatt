@@ -1,3 +1,5 @@
+import Promise from 'bluebird'
+
 import dns from './modules/dns'
 import {
   facebook,
